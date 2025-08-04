@@ -1,0 +1,152 @@
+body,
+html {
+  margin: 1.6rem 2.7rem;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-left: 0px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+h2 {
+  margin-top: 2.3;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 17px;
+  margin-top: 1.3rem;
+  margin-bottom: 0;
+}
+
+p {
+  line-height: 1.6;
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 1.3rem;
+}
+
+th {
+  background-color: #eaecf0;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+}
+
+th.title,
+td.title {
+  width: 20%;
+}
+
+th.year,
+td.year {
+  width: 3rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+figure {
+  text-align: center;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 6vh;
+  margin-bottom: 4.8rem;
+  gap: 1.3rem;
+}
+
+.wiki-name {
+  font-size: 32px;
+}
+
+.wiki-logo-img {
+  width: 58px;
+  height: 58px;
+}
+
+.layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 14.5rem;
+  height: 18rem;
+  margin: 0;
+}
+
+.sidebar-title {
+  margin: 0.5rem 0;
+}
+
+.game-title {
+  margin-bottom: 0.5rem;
+}
+
+.page-index-sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 14.5rem;
+  height: 18rem;
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 76rem;
+  height: auto;
+  margin: 3rem 6rem;
+}
+
+.main-wiki-title {
+  font-size: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+.game-logo-img {
+  width: 35%;
+  margin-top: 2.4rem;
+}
